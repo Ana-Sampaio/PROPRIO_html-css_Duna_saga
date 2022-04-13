@@ -1,0 +1,106 @@
+body{
+	background-image: url("https://cdn.mos.cms.futurecdn.net/nKLsP2bXfdCaSDepXkE8BJ.jpeg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+/*HEADER*/
+.Atreides{
+	width: 132px;
+	height: 82px;
+	border: 2px solid #e0a338;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+nav{
+	position: absolute;
+	top: 56px;
+	right: 20px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #C2FBFC;
+} 
+nav a:hover{
+	color: #e0a338;
+	text-decoration: underline; 
+}
+/*saga*/
+.livros{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.livros li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+.livros li:hover h2{
+	font-size: 25px;
+}
+.livros h2{
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	color: #C2FBFC;
+}
+img{
+	width: 150px;
+	height: 200px;
+	border: 2px solid #e0a338;
+}
+img:hover{
+	border-color: #C2FBFC
+} 
+img:active{
+	border-color: #000000;
+}
+.resumo{
+	font-size: 17px;
+	color: #C2FBFC;
+	margin-top: 5px;
+}
+.ano{
+	font-size: 18px;
+	font-weight: bold;
+	color: #C2FBFC;
+	margin-top: 10px;
+}
+/*FOOTER*/
+footer{
+	text-align: center;
+	padding: 1em 0 0 0;
+}
+.poster{
+	width: 150px;
+	height: 200px;
+	border: 2px solid #e0a338;
+}
+.copyright{
+	color: #C2FBFC;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+/*EXTRA QUE EU NÃO LEMBRO DE TER ESCRITO*/
+@media screen and (max-width:480px){
+	.caixa, .quotes, .shai-hulud, .nomes{
+		width: auto;
+	}
+	.shai-hulud, .nome{
+		width: 100%;
+	}
+
+}
